@@ -1,7 +1,7 @@
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 import tempfile
 import os
-from app.utils import clean_text
+from utils import clean_text
 
 
 def load_pdf(uploaded_file):
@@ -14,7 +14,6 @@ def load_pdf(uploaded_file):
 
     os.remove(temp_path)
 
-    # Clean text
     for doc in documents:
         doc.page_content = clean_text(doc.page_content)
 
