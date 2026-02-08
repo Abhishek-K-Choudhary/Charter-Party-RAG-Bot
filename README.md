@@ -31,22 +31,22 @@ Generates grounded answers using an LLM
 
 Displays supporting source clauses and page references
 
-🧠 Architecture
-PDF Upload
+- 🧠 Architecture
+- PDF Upload
    ↓
-Text Extraction
+- Text Extraction
    ↓
-Chunking
+- Chunking
    ↓
-Embeddings
+- Embeddings
    ↓
-Vector Store (FAISS)
+- Vector Store (FAISS)
    ↓
-Similarity Retrieval
+- Similarity Retrieval
    ↓
-LLM (temperature = 0)
+- LLM (temperature = 0)
    ↓
-Answer + Source Clauses
+- Answer + Source Clauses
 
 
 The model is configured to:

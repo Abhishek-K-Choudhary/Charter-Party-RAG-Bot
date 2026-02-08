@@ -1,6 +1,6 @@
 import streamlit as st
-from app.rag_pipeline import get_answer
-from app.utils import (
+from rag_pipeline import get_answer
+from utils import (
     load_environment,
     format_sources,
     extract_page_numbers,
